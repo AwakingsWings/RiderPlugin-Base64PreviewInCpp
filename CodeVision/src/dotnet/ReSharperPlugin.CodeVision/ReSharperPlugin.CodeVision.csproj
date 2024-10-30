@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="JetBrains.ReSharper.SDK" Version="$(SdkVersion)" PrivateAssets="all" />
-    <PackageReference Include="JetBrains.Rider.Rider.Backend" Version="233.0.20231218.113050" />
+    <PackageReference Include="JetBrains.Rider.Rider.Backend" Version="242.0.20240823.170448" />
     <PackageReference Include="Wave" Version="$(WaveVersion)" />
   </ItemGroup>
 

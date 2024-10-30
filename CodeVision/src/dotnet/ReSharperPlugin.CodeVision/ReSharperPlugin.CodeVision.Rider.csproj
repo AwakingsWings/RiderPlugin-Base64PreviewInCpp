@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="JetBrains.Psi.Features.Cpp.Src.Core" Version="233.0.20231218.113756" />
+    <PackageReference Include="JetBrains.Psi.Features.Cpp.Src.Core" Version="242.0.20240823.170448" />
     
     <PackageReference Include="JetBrains.Rider.SDK" Version="$(SdkVersion)" />
   </ItemGroup>

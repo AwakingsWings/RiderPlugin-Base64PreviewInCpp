@@ -249,7 +249,7 @@ namespace JetBrains.ReSharper.Feature.Services.Cpp.Daemon
       CppFastDaemonStageCustomProcess.HighlightPrecompiledHeaderErrors(file, consumer);
       CppFastDaemonStageCustomProcess.HighlightMissingIncludeGuard(file, consumer);
       CppUnmatchedDirectiveAnalyzer.Highlight(file, data, consumer);
-      CppUE4MiscAnalyzer.HighlightUE4GeneratedFileIsNotIncludedLastError(file, consumer);
+      // CppUE4MiscAnalyzer.HighlightUE4GeneratedFileIsNotIncludedLastError(file, consumer);
       CppUE4MiscAnalyzer.HighlightUE4MissingStandardLibrary(file, consumer);
       CppUE4MiscAnalyzer.HighlightUE4IncorrectProjectFiles(file, consumer);
     }
