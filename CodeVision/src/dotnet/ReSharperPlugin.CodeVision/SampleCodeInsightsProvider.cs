@@ -7,7 +7,7 @@ using MessageBox = JetBrains.Util.MessageBox;
 
 namespace ReSharperPlugin.CodeVision;
 
-[SolutionComponent]
+// [SolutionComponent]
 public class SampleCodeInsightsProvider : ICodeInsightsProvider
 {
     public bool IsAvailableIn(ISolution solution)
